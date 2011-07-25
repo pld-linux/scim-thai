@@ -1,7 +1,7 @@
 Summary:	Thai Input Method Engine for SCIM
 Name:		scim-thai
 Version:	0.1.1
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	ftp://linux.thai.net/pub/thailinux/software/libthai/%{name}-%{version}.tar.gz
