@@ -1,17 +1,17 @@
 Summary:	Thai Input Method Engine for SCIM
 Summary(pl.UTF-8):	Silnik wprowadzania znaków tajskich dla SCIM
 Name:		scim-thai
-Version:	0.1.2
+Version:	0.1.3
 Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	ftp://linux.thai.net/pub/thailinux/software/libthai/%{name}-%{version}.tar.gz
-# Source0-md5:	ac33b24f949245f7c9971a21e7a4e570
+# Source0-md5:	5d4c8d53b373cba0286e34f427d57221
 URL:		http://linux.thai.net/projects/scim-thai
 BuildRequires:	libstdc++-devel
 BuildRequires:	libthai-devel
-BuildRequires:	scim-devel >= 0.99.8
-Requires:	scim >= 0.99.8
+BuildRequires:	scim-devel >= 1.4.13
+Requires:	scim >= 1.4.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
